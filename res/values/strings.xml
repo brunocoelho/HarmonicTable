@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HarmonicTable!</string>
+    <string name="app_name">Harmonic Table</string>
+    <string name="buttonClick">Button Click</string>
+</resources>
