@@ -18,7 +18,8 @@
 		android:layout_height="wrap_content"
     	android:layout_width="wrap_content"
     	android:text="@string/buttonClick"
-    	android:onClick="buttonClick" >
+    	android:onClick="buttonClick" 
+    	>
     </Button>
 
 </LinearLayout>
