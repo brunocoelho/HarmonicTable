@@ -24,11 +24,11 @@ public class HarmonicTable extends Activity {
 	 * @param The view that was clicked.
 	 * @references: http://developer.android.com/guide/topics/media/index.html
 	 */
-	public void buttonClick(View view){
+	/*public void buttonClick(View view){
 		int height = view.getHeight();
 		TextView tx = (TextView) findViewById(R.id.textview);
 		tx.setText("The height of the button is: " + height);
 		
-		
-	}
+		<!--android:onClick="buttonClick"-->
+	}*/
 }
