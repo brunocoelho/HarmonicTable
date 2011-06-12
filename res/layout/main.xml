@@ -11,27 +11,27 @@
       android:layout_height="wrap_content"
       android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
  	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
@@ -43,27 +43,27 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
@@ -75,27 +75,27 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
@@ -107,27 +107,27 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
@@ -139,27 +139,27 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
@@ -171,27 +171,27 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
@@ -203,31 +203,30 @@
 	  android:layout_height="wrap_content"
 	  android:layout_weight="1">
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>
 	  <ImageView
-	      android:src="@drawable/hexagon"
+	      android:src="@drawable/hexa"
 	      android:layout_width="fill_parent"
 	      android:layout_height="wrap_content"
 	      android:layout_weight="1"/>	      
   </LinearLayout>
   
-
 </LinearLayout>
