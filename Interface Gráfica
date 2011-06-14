@@ -1,0 +1,13 @@
+TO DO
+	Elevar as linhas pares de hexágonos para encaixar com as linhas ímpares.
+	Colocar menu ao lado esquerdo com os controladores de som.
+	Implementar as funções do drag and drop.
+
+
+REFERÊNCIAS
+
+Drag and drop
+	http://developer.android.com/guide/topics/ui/drag-drop.html
+
+Creating menus
+	http://developer.android.com/guide/topics/ui/menus.html

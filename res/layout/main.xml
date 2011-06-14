@@ -1,232 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:orientation="vertical">
 
-  <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
- 	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-  </LinearLayout>
-        
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-          
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-          
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-          
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-          
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-          
-  <LinearLayout
-	  android:orientation="horizontal"
-	  android:layout_width="fill_parent"
-	  android:layout_height="wrap_content"
-	  android:layout_weight="1">
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>
-	  <ImageView
-	      android:src="@drawable/hexa"
-	      android:layout_width="fill_parent"
-	      android:layout_height="wrap_content"
-	      android:layout_weight="1"/>	      
-  </LinearLayout>
-  
-</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="horizontal" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L1H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L1H2"
+				android:layout_width="96px" android:layout_height="110px" />
+
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L1H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L1H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L1H5"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H5"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal" android:layout_marginTop="52px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H5"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal" android:layout_marginTop="52px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H5"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		>
+
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="83px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="48px">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L2H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L2H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L2H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L2H4"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+			android:layout_width="385px" android:layout_height="wrap_content"
+			android:layout_marginLeft="48px">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L4H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L4H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L4H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L4H4"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+ 
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+			android:layout_width="385px" android:layout_height="wrap_content"
+			android:layout_marginLeft="48px">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L6H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L6H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L6H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L6H4"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+			android:layout_width="385px" android:layout_height="wrap_content"
+			android:layout_marginLeft="48px">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L8H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L8H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L8H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L8H4"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+	</LinearLayout>
+
+</FrameLayout>
