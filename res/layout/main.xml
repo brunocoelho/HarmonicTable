@@ -22,7 +22,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="56px"
 			android:layout_width="wrap_content" android:layout_height="wrap_content">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L3H1"
 				android:layout_width="96px" android:layout_height="110px" />
@@ -36,7 +36,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" android:layout_marginTop="56px"
 			android:layout_width="fill_parent" android:layout_height="wrap_content">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L5H1"
 				android:layout_width="96px" android:layout_height="110px" />
@@ -50,7 +50,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" android:layout_marginTop="56px"
 			android:layout_width="wrap_content" android:layout_height="wrap_content">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H1"
 				android:layout_width="96px" android:layout_height="110px" />
@@ -61,6 +61,20 @@
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H4"
 				android:layout_width="96px" android:layout_height="110px" />
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L7H5"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
+		
+				<LinearLayout android:orientation="horizontal" android:layout_marginTop="56px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L9H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L9H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L9H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L9H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexa" android:id="@+id/L9H5"
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
@@ -83,7 +97,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="56px"
 			android:layout_width="385px" android:layout_height="wrap_content"
 			android:layout_marginLeft="48px">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L4H1"
@@ -96,7 +110,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
  
-		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="56px"
 			android:layout_width="385px" android:layout_height="wrap_content"
 			android:layout_marginLeft="48px">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L6H1"
@@ -109,7 +123,7 @@
 				android:layout_width="96px" android:layout_height="110px" />
 		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="52px"
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="56px"
 			android:layout_width="385px" android:layout_height="wrap_content"
 			android:layout_marginLeft="48px">
 			<ImageView android:src="@drawable/hexa" android:id="@+id/L8H1"
