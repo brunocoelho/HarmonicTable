@@ -163,10 +163,42 @@ public class HarmonicTable extends Activity {
 	private OnClickListener imageListener = new OnClickListener() {
 		public void onClick(View image) {
 
-			// se uma função foi escolhida.
 			if(functionClicked){
-				image.setBackgroundResource(R.drawable.sul);
+				ImageView temp = (ImageView) image;
+
+				switch(idComand){
+				
+					case R.id.norte:
+						temp.setImageResource(R.drawable.norte);
+						break;
+					
+					case R.id.sul:
+						temp.setImageResource(R.drawable.sul);
+						break;
+						
+					case R.id.nordeste:
+						temp.setImageResource(R.drawable.nordeste);
+						break;
+						
+					case R.id.sudeste:
+						temp.setImageResource(R.drawable.sudeste);
+						break;
+					
+					case R.id.noroeste:
+						temp.setImageResource(R.drawable.noroeste);
+						break;
+					
+					case R.id.sudoeste:
+						temp.setImageResource(R.drawable.sudoeste);
+						break;
+					
+					default:
+						Log.e("BRUNO COELHO", "Entrou no default");
+						
+				}
 				ids.add(idComand);
+				Log.i("BRUNO COELHO", "Configuração das funções: " + ids.toString());
+				functionClicked = false;
 			}
 			// se nenhuma função foi escolhida, toda a nota do hexagono.
 			else{
@@ -294,7 +326,7 @@ public class HarmonicTable extends Activity {
 	private void play(){
 
 		if(!this.ids.isEmpty()){
-			// play
+			Log.d("BRUNO COELHO", "Entrou no PLAY");
 		}
 	}
 
@@ -302,7 +334,7 @@ public class HarmonicTable extends Activity {
 
 		if(!this.ids.isEmpty()){
 			this.ids.clear();
-			// stop 
+			Log.d("BRUNO COELHO", "Entrou no STOP");
 		}
 	}
 }
