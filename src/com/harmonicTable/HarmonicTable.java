@@ -12,7 +12,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class HarmonicTable extends Activity {
 
@@ -36,7 +35,7 @@ public class HarmonicTable extends Activity {
 	}
 
 	public void loadListener(){
-		
+
 		ImageView image1 = (ImageView) findViewById(R.id.L1H1);
 		image1.setOnClickListener(this.imageListener);
 		ImageView image2 = (ImageView) findViewById(R.id.L1H2);
@@ -147,51 +146,16 @@ public class HarmonicTable extends Activity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 
-		int idComand = item.getItemId();
-		switch (idComand) {
-		case R.id.norte:
-			Toast.makeText(this, "NORTE!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.sul:     
-			Toast.makeText(this, "SUL!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.nordeste: 
-			Toast.makeText(this, "NORDESTE!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.sudeste: 
-			Toast.makeText(this, "SUDESTE!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.noroeste: 
-			Toast.makeText(this, "NOROESTE!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.sudoeste: 
-			Toast.makeText(this, "SUDOESTE!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.play: 
-			Toast.makeText(this, "PLAY!", Toast.LENGTH_LONG).show();
-			break;
-
-		case R.id.stop: 
-			Toast.makeText(this, "STOP!", Toast.LENGTH_LONG).show();
-			break;
-
-		default:
-			Log.v("BRUNO COELHO", "ENTROU NO DEFAULT DO SWITCH DO COMANDO");
-		}
-		this.idComand = idComand;
-		this.functionClicked = true;
+		this.idComand = item.getItemId();
 
 		if(this.idComand == R.id.play)
 			this.play();
 
 		else if(this.idComand == R.id.stop)
 			this.stop();
+		
+		else
+			this.functionClicked = true;
 
 		return true;
 	}
@@ -312,15 +276,19 @@ public class HarmonicTable extends Activity {
 				int id = image.getId();
 				switch(id){
 				case R.id.L1H1:
-					Log.v("BRUNO COELHO", "click no hexa 1");
+					Log.v("COELHO", "click no hexa 1");
 					break;
 				case R.id.L1H2:
+					Log.v("COELHO", "click no hexa 2");
 					break;
 				case R.id.L1H3:
+					Log.v("COELHO", "click no hexa 3");
 					break;
 				case R.id.L1H4:
+					Log.v("COELHO", "click no hexa 4");
 					break;
 				case R.id.L1H5:
+					Log.v("COELHO", "click no hexa 5");
 					break;
 				case R.id.L2H1:
 					break;
@@ -411,15 +379,14 @@ public class HarmonicTable extends Activity {
 				case R.id.L9H5:
 					break;
 				}
-
 				/*String saida = "Entrou aqui: ID da view = " + image.getId();
 				Log.e("BRUNO COELHO", saida);
 				//image.setVisibility(4);
 				// Toolkit.getDefaultToolkit().getImage(URL or file path);
-				Drawable newImage = Drawable.createFromPath("./hexagono");
+				Drawable newImage = Drawable.createFromPath("./res/drawable-mdpi/hexagono");
 				if(newImage == null)
 					Log.v("BRUNO COELHO", "IMAGEM EH NULL");
-	
+
 				Log.e("BRUNO COELHO", "Imagem" + newImage.toString());
 				image.setBackgroundDrawable(newImage);*/
 			}
@@ -437,7 +404,7 @@ public class HarmonicTable extends Activity {
 
 		if(!this.ids.isEmpty()){
 			this.ids.clear();
-			// stop play 
+			// stop 
 		}
 	}
 }
