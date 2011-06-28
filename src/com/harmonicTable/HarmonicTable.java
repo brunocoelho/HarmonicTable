@@ -19,6 +19,59 @@ public class HarmonicTable extends Activity {
 	public boolean functionClicked;
 	public boolean empty;
 	public List<Integer> ids;
+	public ImageView image1,
+					 image2,
+					 image3,
+					 image4,
+					 image5,
+					 image6,
+					 image7,
+					 image8,
+					 image9,
+					 image10,
+					 image11,
+					 image12,
+					 image13,
+					 image14,
+					 image15,
+					 image16,
+					 image17,
+					 image18,
+					 image19,
+					 image20,
+					 image21,
+					 image22,
+					 image23,
+					 image24,
+					 image25,
+					 image26,
+					 image27,
+					 image28,
+					 image29,
+					 image30,
+					 image31,
+					 image32,
+					 image33,
+					 image34,
+				 	 image35,
+					 image36,
+					 image37,
+					 image38,
+					 image39,
+					 image40,
+					 image41,
+					 image42,
+					 image43,
+					 image44,
+					 image45,
+					 image46,
+					 image47,
+					 image48,
+					 image49,
+					 image50,
+					 image51,
+					 image52,
+					 image53;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -36,104 +89,104 @@ public class HarmonicTable extends Activity {
 
 	public void loadListener(){
 
-		ImageView image1 = (ImageView) findViewById(R.id.L1H1);
-		image1.setOnClickListener(this.imageListener);
-		ImageView image2 = (ImageView) findViewById(R.id.L1H2);
-		image2.setOnClickListener(this.imageListener);
-		ImageView image3 = (ImageView) findViewById(R.id.L1H3);
-		image3.setOnClickListener(this.imageListener);
-		ImageView image4 = (ImageView) findViewById(R.id.L1H4);
-		image4.setOnClickListener(this.imageListener);
-		ImageView image5 = (ImageView) findViewById(R.id.L1H5);
-		image5.setOnClickListener(this.imageListener);
-		ImageView image7 = (ImageView) findViewById(R.id.L2H1);
-		image7.setOnClickListener(this.imageListener);
-		ImageView image8 = (ImageView) findViewById(R.id.L2H2);
-		image8.setOnClickListener(this.imageListener);
-		ImageView image9 = (ImageView) findViewById(R.id.L2H3);
-		image9.setOnClickListener(this.imageListener);
-		ImageView image10 = (ImageView) findViewById(R.id.L2H4);
-		image10.setOnClickListener(this.imageListener);
-		ImageView image11 = (ImageView) findViewById(R.id.L2H5);
-		image11.setOnClickListener(this.imageListener);
-		ImageView image12 = (ImageView) findViewById(R.id.L2H6);
-		image12.setOnClickListener(this.imageListener);
-		ImageView image13 = (ImageView) findViewById(R.id.L3H1);
-		image13.setOnClickListener(this.imageListener);
-		ImageView image14 = (ImageView) findViewById(R.id.L3H2);
-		image14.setOnClickListener(this.imageListener);
-		ImageView image15 = (ImageView) findViewById(R.id.L3H3);
-		image15.setOnClickListener(this.imageListener);
-		ImageView image16 = (ImageView) findViewById(R.id.L3H4);
-		image16.setOnClickListener(this.imageListener);
-		ImageView image17 = (ImageView) findViewById(R.id.L3H5);
-		image17.setOnClickListener(this.imageListener);
-		ImageView image19 = (ImageView) findViewById(R.id.L4H1);
-		image19.setOnClickListener(this.imageListener);
-		ImageView image20 = (ImageView) findViewById(R.id.L4H2);
-		image20.setOnClickListener(this.imageListener);
-		ImageView image21 = (ImageView) findViewById(R.id.L4H3);
-		image21.setOnClickListener(this.imageListener);
-		ImageView image22 = (ImageView) findViewById(R.id.L4H4);
-		image22.setOnClickListener(this.imageListener);
-		ImageView image23 = (ImageView) findViewById(R.id.L4H5);
-		image23.setOnClickListener(this.imageListener);
-		ImageView image24 = (ImageView) findViewById(R.id.L4H6);
-		image24.setOnClickListener(this.imageListener);
-		ImageView image25 = (ImageView) findViewById(R.id.L5H1);
-		image25.setOnClickListener(this.imageListener);
-		ImageView image26 = (ImageView) findViewById(R.id.L5H2);
-		image26.setOnClickListener(this.imageListener);
-		ImageView image27 = (ImageView) findViewById(R.id.L5H3);
-		image27.setOnClickListener(this.imageListener);
-		ImageView image28 = (ImageView) findViewById(R.id.L5H4);
-		image28.setOnClickListener(this.imageListener);
-		ImageView image29 = (ImageView) findViewById(R.id.L5H5);
-		image29.setOnClickListener(this.imageListener);
-		ImageView image31 = (ImageView) findViewById(R.id.L6H1);
-		image31.setOnClickListener(this.imageListener);
-		ImageView image32 = (ImageView) findViewById(R.id.L6H2);
-		image32.setOnClickListener(this.imageListener);
-		ImageView image33 = (ImageView) findViewById(R.id.L6H3);
-		image33.setOnClickListener(this.imageListener);
-		ImageView image34 = (ImageView) findViewById(R.id.L6H4);
-		image34.setOnClickListener(this.imageListener);
-		ImageView image35 = (ImageView) findViewById(R.id.L6H5);
-		image35.setOnClickListener(this.imageListener);
-		ImageView image36 = (ImageView) findViewById(R.id.L6H6);
-		image36.setOnClickListener(this.imageListener);
-		ImageView image37 = (ImageView) findViewById(R.id.L7H1);
-		image37.setOnClickListener(this.imageListener);
-		ImageView image38 = (ImageView) findViewById(R.id.L7H2);
-		image38.setOnClickListener(this.imageListener);
-		ImageView image39 = (ImageView) findViewById(R.id.L7H3);
-		image39.setOnClickListener(this.imageListener);
-		ImageView image40 = (ImageView) findViewById(R.id.L7H4);
-		image40.setOnClickListener(this.imageListener);
-		ImageView image41 = (ImageView) findViewById(R.id.L7H5);
-		image41.setOnClickListener(this.imageListener);
-		ImageView image43 = (ImageView) findViewById(R.id.L8H1);
-		image43.setOnClickListener(this.imageListener);
-		ImageView image44 = (ImageView) findViewById(R.id.L8H2);
-		image44.setOnClickListener(this.imageListener);
-		ImageView image45 = (ImageView) findViewById(R.id.L8H3);
-		image45.setOnClickListener(this.imageListener);
-		ImageView image46 = (ImageView) findViewById(R.id.L8H4);
-		image46.setOnClickListener(this.imageListener);
-		ImageView image47 = (ImageView) findViewById(R.id.L8H5);
-		image47.setOnClickListener(this.imageListener);
-		ImageView image48 = (ImageView) findViewById(R.id.L8H6);
-		image48.setOnClickListener(this.imageListener);
-		ImageView image49 = (ImageView) findViewById(R.id.L9H1);
-		image49.setOnClickListener(this.imageListener);
-		ImageView image50 = (ImageView) findViewById(R.id.L9H2);
-		image50.setOnClickListener(this.imageListener);
-		ImageView image51 = (ImageView) findViewById(R.id.L9H3);
-		image51.setOnClickListener(this.imageListener);
-		ImageView image52 = (ImageView) findViewById(R.id.L9H4);
-		image52.setOnClickListener(this.imageListener);
-		ImageView image53 = (ImageView) findViewById(R.id.L9H5);
-		image53.setOnClickListener(this.imageListener);
+		this.image1 = (ImageView) findViewById(R.id.L1H1);
+		this.image1.setOnClickListener(this.imageListener);
+		this.image2 = (ImageView) findViewById(R.id.L1H2);
+		this.image2.setOnClickListener(this.imageListener);
+		this.image3 = (ImageView) findViewById(R.id.L1H3);
+		this.image3.setOnClickListener(this.imageListener);
+		this.image4 = (ImageView) findViewById(R.id.L1H4);
+		this.image4.setOnClickListener(this.imageListener);
+		this.image5 = (ImageView) findViewById(R.id.L1H5);
+		this.image5.setOnClickListener(this.imageListener);
+		this.image6 = (ImageView) findViewById(R.id.L2H1);
+		this.image6.setOnClickListener(this.imageListener);
+		this.image7 = (ImageView) findViewById(R.id.L2H2);
+		this.image7.setOnClickListener(this.imageListener);
+		this.image8 = (ImageView) findViewById(R.id.L2H3);
+		this.image8.setOnClickListener(this.imageListener);
+		this.image9 = (ImageView) findViewById(R.id.L2H4);
+		this.image9.setOnClickListener(this.imageListener);
+		this.image10 = (ImageView) findViewById(R.id.L2H5);
+		this.image10.setOnClickListener(this.imageListener);
+		this.image11 = (ImageView) findViewById(R.id.L2H6);
+		this.image11.setOnClickListener(this.imageListener);
+		this.image12 = (ImageView) findViewById(R.id.L3H1);
+		this.image12.setOnClickListener(this.imageListener);
+		this.image13 = (ImageView) findViewById(R.id.L3H2);
+		this.image13.setOnClickListener(this.imageListener);
+		this.image14 = (ImageView) findViewById(R.id.L3H3);
+		this.image14.setOnClickListener(this.imageListener);
+		this.image15 = (ImageView) findViewById(R.id.L3H4);
+		this.image15.setOnClickListener(this.imageListener);
+		this.image16 = (ImageView) findViewById(R.id.L3H5);
+		this.image16.setOnClickListener(this.imageListener);
+		this.image17 = (ImageView) findViewById(R.id.L4H1);
+		this.image17.setOnClickListener(this.imageListener);
+		this.image18 = (ImageView) findViewById(R.id.L4H2);
+		this.image18.setOnClickListener(this.imageListener);
+		this.image19 = (ImageView) findViewById(R.id.L4H3);
+		this.image19.setOnClickListener(this.imageListener);
+		this.image20 = (ImageView) findViewById(R.id.L4H4);
+		this.image20.setOnClickListener(this.imageListener);
+		this.image21 = (ImageView) findViewById(R.id.L4H5);
+		this.image21.setOnClickListener(this.imageListener);
+		this.image22 = (ImageView) findViewById(R.id.L4H6);
+		this.image22.setOnClickListener(this.imageListener);
+		this.image23 = (ImageView) findViewById(R.id.L5H1);
+		this.image23.setOnClickListener(this.imageListener);
+		this.image24 = (ImageView) findViewById(R.id.L5H2);
+		this.image24.setOnClickListener(this.imageListener);
+		this.image25 = (ImageView) findViewById(R.id.L5H3);
+		this.image25.setOnClickListener(this.imageListener);
+		this.image26 = (ImageView) findViewById(R.id.L5H4);
+		this.image26.setOnClickListener(this.imageListener);
+		this.image27 = (ImageView) findViewById(R.id.L5H5);
+		this.image27.setOnClickListener(this.imageListener);
+		this.image28 = (ImageView) findViewById(R.id.L6H1);
+		this.image28.setOnClickListener(this.imageListener);
+		this.image29 = (ImageView) findViewById(R.id.L6H2);
+		this.image29.setOnClickListener(this.imageListener);
+		this.image30 = (ImageView) findViewById(R.id.L6H3);
+		this.image30.setOnClickListener(this.imageListener);
+		this.image31 = (ImageView) findViewById(R.id.L6H4);
+		this.image31.setOnClickListener(this.imageListener);
+		this.image32 = (ImageView) findViewById(R.id.L6H5);
+		this.image32.setOnClickListener(this.imageListener);
+		this.image33 = (ImageView) findViewById(R.id.L6H6);
+		this.image33.setOnClickListener(this.imageListener);
+		this.image34 = (ImageView) findViewById(R.id.L7H1);
+		this.image34.setOnClickListener(this.imageListener);
+		this.image35 = (ImageView) findViewById(R.id.L7H2);
+		this.image35.setOnClickListener(this.imageListener);
+		this.image36 = (ImageView) findViewById(R.id.L7H3);
+		this.image36.setOnClickListener(this.imageListener);
+		this.image37 = (ImageView) findViewById(R.id.L7H4);
+		this.image37.setOnClickListener(this.imageListener);
+		this.image38 = (ImageView) findViewById(R.id.L7H5);
+		this.image38.setOnClickListener(this.imageListener);
+		this.image39 = (ImageView) findViewById(R.id.L8H1);
+		this.image39.setOnClickListener(this.imageListener);
+		this.image40 = (ImageView) findViewById(R.id.L8H2);
+		this.image40.setOnClickListener(this.imageListener);
+		this.image41 = (ImageView) findViewById(R.id.L8H3);
+		this.image41.setOnClickListener(this.imageListener);
+		this.image42 = (ImageView) findViewById(R.id.L8H4);
+		this.image42.setOnClickListener(this.imageListener);
+		this.image43 = (ImageView) findViewById(R.id.L8H5);
+		this.image43.setOnClickListener(this.imageListener);
+		this.image44 = (ImageView) findViewById(R.id.L8H6);
+		this.image44.setOnClickListener(this.imageListener);
+		this.image45 = (ImageView) findViewById(R.id.L9H1);
+		this.image45.setOnClickListener(this.imageListener);
+		this.image46 = (ImageView) findViewById(R.id.L9H2);
+		this.image46.setOnClickListener(this.imageListener);
+		this.image47 = (ImageView) findViewById(R.id.L9H3);
+		this.image47.setOnClickListener(this.imageListener);
+		this.image48 = (ImageView) findViewById(R.id.L9H4);
+		this.image48.setOnClickListener(this.imageListener);
+		this.image49 = (ImageView) findViewById(R.id.L9H5);
+		this.image49.setOnClickListener(this.imageListener);
 	}
 
 	@Override
@@ -160,6 +213,7 @@ public class HarmonicTable extends Activity {
 		return true;
 	}
 
+	// Falta apenas colocar as orientações corretas.
 	private OnClickListener imageListener = new OnClickListener() {
 		public void onClick(View image) {
 
@@ -323,6 +377,7 @@ public class HarmonicTable extends Activity {
 		}
 	};
 
+	// Falta função do play.
 	private void play(){
 
 		if(!this.ids.isEmpty()){
@@ -330,11 +385,61 @@ public class HarmonicTable extends Activity {
 		}
 	}
 
+	// Falta apenas parar de tocar o som.
 	private void stop(){
 
 		if(!this.ids.isEmpty()){
 			this.ids.clear();
 			Log.d("BRUNO COELHO", "Entrou no STOP");
+			this.image1.setImageResource(R.drawable.hexablue);
+			this.image2.setImageResource(R.drawable.hexablue);
+			this.image3.setImageResource(R.drawable.hexablue);
+			this.image4.setImageResource(R.drawable.hexablue);
+			this.image5.setImageResource(R.drawable.hexablue);
+			this.image6.setImageResource(R.drawable.hexablue);
+			this.image7.setImageResource(R.drawable.hexablue);
+			this.image8.setImageResource(R.drawable.hexablue);
+			this.image9.setImageResource(R.drawable.hexablue);
+			this.image10.setImageResource(R.drawable.hexablue);
+			this.image11.setImageResource(R.drawable.hexablue);
+			this.image12.setImageResource(R.drawable.hexablue);
+			this.image13.setImageResource(R.drawable.hexablue);
+			this.image14.setImageResource(R.drawable.hexablue);
+			this.image15.setImageResource(R.drawable.hexablue);
+			this.image16.setImageResource(R.drawable.hexablue);
+			this.image17.setImageResource(R.drawable.hexablue);
+			this.image18.setImageResource(R.drawable.hexablue);
+			this.image19.setImageResource(R.drawable.hexablue);
+			this.image20.setImageResource(R.drawable.hexablue);
+			this.image21.setImageResource(R.drawable.hexablue);
+			this.image22.setImageResource(R.drawable.hexablue);
+			this.image23.setImageResource(R.drawable.hexablue);
+			this.image24.setImageResource(R.drawable.hexablue);
+			this.image25.setImageResource(R.drawable.hexablue);
+			this.image26.setImageResource(R.drawable.hexablue);
+			this.image27.setImageResource(R.drawable.hexablue);
+			this.image28.setImageResource(R.drawable.hexablue);
+			this.image29.setImageResource(R.drawable.hexablue);
+			this.image30.setImageResource(R.drawable.hexablue);
+			this.image31.setImageResource(R.drawable.hexablue);
+			this.image32.setImageResource(R.drawable.hexablue);
+			this.image33.setImageResource(R.drawable.hexablue);
+			this.image34.setImageResource(R.drawable.hexablue);
+			this.image35.setImageResource(R.drawable.hexablue);
+			this.image36.setImageResource(R.drawable.hexablue);
+			this.image37.setImageResource(R.drawable.hexablue);
+			this.image38.setImageResource(R.drawable.hexablue);
+			this.image39.setImageResource(R.drawable.hexablue);
+			this.image40.setImageResource(R.drawable.hexablue);
+			this.image41.setImageResource(R.drawable.hexablue);
+			this.image42.setImageResource(R.drawable.hexablue);
+			this.image43.setImageResource(R.drawable.hexablue);
+			this.image44.setImageResource(R.drawable.hexablue);
+			this.image45.setImageResource(R.drawable.hexablue);
+			this.image46.setImageResource(R.drawable.hexablue);
+			this.image47.setImageResource(R.drawable.hexablue);
+			this.image48.setImageResource(R.drawable.hexablue);
+			this.image49.setImageResource(R.drawable.hexablue);
 		}
 	}
 }
