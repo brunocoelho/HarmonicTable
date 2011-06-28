@@ -153,7 +153,7 @@ public class HarmonicTable extends Activity {
 
 		else if(this.idComand == R.id.stop)
 			this.stop();
-		
+
 		else
 			this.functionClicked = true;
 
@@ -165,109 +165,7 @@ public class HarmonicTable extends Activity {
 
 			// se uma função foi escolhida.
 			if(functionClicked){
-				int id = image.getId();
-				switch(id){
-				case R.id.L1H1:
-					break;
-				case R.id.L1H2:
-					break;
-				case R.id.L1H3:
-					break;
-				case R.id.L1H4:
-					break;
-				case R.id.L1H5:
-					break;
-				case R.id.L2H1:
-					break;
-				case R.id.L2H2:
-					break;
-				case R.id.L2H3:
-					break;
-				case R.id.L2H4:
-					break;
-				case R.id.L2H5:
-					break;
-				case R.id.L2H6:
-					break;
-				case R.id.L3H1:
-					break;
-				case R.id.L3H2:
-					break;
-				case R.id.L3H3:
-					break;
-				case R.id.L3H4:
-					break;
-				case R.id.L3H5:
-					break;
-				case R.id.L4H1:
-					break;
-				case R.id.L4H2:
-					break;
-				case R.id.L4H3:
-					break;
-				case R.id.L4H4:
-					break;
-				case R.id.L4H5:
-					break;
-				case R.id.L4H6:
-					break;
-				case R.id.L5H1:
-					break;
-				case R.id.L5H2:
-					break;
-				case R.id.L5H3:
-					break;
-				case R.id.L5H4:
-					break;
-				case R.id.L5H5:
-					break;
-				case R.id.L6H1:
-					break;
-				case R.id.L6H2:
-					break;
-				case R.id.L6H3:
-					break;
-				case R.id.L6H4:
-					break;
-				case R.id.L6H5:
-					break;
-				case R.id.L6H6:
-					break;
-				case R.id.L7H1:
-					break;
-				case R.id.L7H2:
-					break;
-				case R.id.L7H3:
-					break;
-				case R.id.L7H4:
-					break;
-				case R.id.L7H5:
-					break;
-				case R.id.L8H1:
-					break;
-				case R.id.L8H2:
-					break;
-				case R.id.L8H3:
-					break;
-				case R.id.L8H4:
-					break;
-				case R.id.L8H5:
-					break;
-				case R.id.L8H6:
-					break;
-				case R.id.L9H1:
-					break;
-				case R.id.L9H2:
-					break;
-				case R.id.L9H3:
-					break;
-				case R.id.L9H4:
-					break;
-				case R.id.L9H5:
-					break;
-				default:
-					Log.v("BRUNO COELHO", "Entrou no default do switch");
-				}
+				image.setBackgroundResource(R.drawable.sul);
 				ids.add(idComand);
 			}
 			// se nenhuma função foi escolhida, toda a nota do hexagono.
@@ -275,109 +173,109 @@ public class HarmonicTable extends Activity {
 				Log.v("BRUNO COELHO", "Entrou no ELSE");
 				int id = image.getId();
 				switch(id){
-				case R.id.L1H1:
-					Log.v("COELHO", "click no hexa 1");
-					break;
-				case R.id.L1H2:
-					Log.v("COELHO", "click no hexa 2");
-					break;
-				case R.id.L1H3:
-					Log.v("COELHO", "click no hexa 3");
-					break;
-				case R.id.L1H4:
-					Log.v("COELHO", "click no hexa 4");
-					break;
-				case R.id.L1H5:
-					Log.v("COELHO", "click no hexa 5");
-					break;
-				case R.id.L2H1:
-					break;
-				case R.id.L2H2:
-					break;
-				case R.id.L2H3:
-					break;
-				case R.id.L2H4:
-					break;
-				case R.id.L2H5:
-					break;
-				case R.id.L2H6:
-					break;
-				case R.id.L3H1:
-					break;
-				case R.id.L3H2:
-					break;
-				case R.id.L3H3:
-					break;
-				case R.id.L3H4:
-					break;
-				case R.id.L3H5:
-					break;
-				case R.id.L4H1:
-					break;
-				case R.id.L4H2:
-					break;
-				case R.id.L4H3:
-					break;
-				case R.id.L4H4:
-					break;
-				case R.id.L4H5:
-					break;
-				case R.id.L4H6:
-					break;
-				case R.id.L5H1:
-					break;
-				case R.id.L5H2:
-					break;
-				case R.id.L5H3:
-					break;
-				case R.id.L5H4:
-					break;
-				case R.id.L5H5:
-					break;
-				case R.id.L6H1:
-					break;
-				case R.id.L6H2:
-					break;
-				case R.id.L6H3:
-					break;
-				case R.id.L6H4:
-					break;
-				case R.id.L6H5:
-					break;
-				case R.id.L6H6:
-					break;
-				case R.id.L7H1:
-					break;
-				case R.id.L7H2:
-					break;
-				case R.id.L7H3:
-					break;
-				case R.id.L7H4:
-					break;
-				case R.id.L7H5:
-					break;
-				case R.id.L8H1:
-					break;
-				case R.id.L8H2:
-					break;
-				case R.id.L8H3:
-					break;
-				case R.id.L8H4:
-					break;
-				case R.id.L8H5:
-					break;
-				case R.id.L8H6:
-					break;
-				case R.id.L9H1:
-					break;
-				case R.id.L9H2:
-					break;
-				case R.id.L9H3:
-					break;
-				case R.id.L9H4:
-					break;
-				case R.id.L9H5:
-					break;
+					case R.id.L1H1:
+						Log.v("COELHO", "click no hexa 1");
+						break;
+					case R.id.L1H2:
+						Log.v("COELHO", "click no hexa 2");
+						break;
+					case R.id.L1H3:
+						Log.v("COELHO", "click no hexa 3");
+						break;
+					case R.id.L1H4:
+						Log.v("COELHO", "click no hexa 4");
+						break;
+					case R.id.L1H5:
+						Log.v("COELHO", "click no hexa 5");
+						break;
+					case R.id.L2H1:
+						break;
+					case R.id.L2H2:
+						break;
+					case R.id.L2H3:
+						break;
+					case R.id.L2H4:
+						break;
+					case R.id.L2H5:
+						break;
+					case R.id.L2H6:
+						break;
+					case R.id.L3H1:
+						break;
+					case R.id.L3H2:
+						break;
+					case R.id.L3H3:
+						break;
+					case R.id.L3H4:
+						break;
+					case R.id.L3H5:
+						break;
+					case R.id.L4H1:
+						break;
+					case R.id.L4H2:
+						break;
+					case R.id.L4H3:
+						break;
+					case R.id.L4H4:
+						break;
+					case R.id.L4H5:
+						break;
+					case R.id.L4H6:
+						break;
+					case R.id.L5H1:
+						break;
+					case R.id.L5H2:
+						break;
+					case R.id.L5H3:
+						break;
+					case R.id.L5H4:
+						break;
+					case R.id.L5H5:
+						break;
+					case R.id.L6H1:
+						break;
+					case R.id.L6H2:
+						break;
+					case R.id.L6H3:
+						break;
+					case R.id.L6H4:
+						break;
+					case R.id.L6H5:
+						break;
+					case R.id.L6H6:
+						break;
+					case R.id.L7H1:
+						break;
+					case R.id.L7H2:
+						break;
+					case R.id.L7H3:
+						break;
+					case R.id.L7H4:
+						break;
+					case R.id.L7H5:
+						break;
+					case R.id.L8H1:
+						break;
+					case R.id.L8H2:
+						break;
+					case R.id.L8H3:
+						break;
+					case R.id.L8H4:
+						break;
+					case R.id.L8H5:
+						break;
+					case R.id.L8H6:
+						break;
+					case R.id.L9H1:
+						break;
+					case R.id.L9H2:
+						break;
+					case R.id.L9H3:
+						break;
+					case R.id.L9H4:
+						break;
+					case R.id.L9H5:
+						break;
 				}
 				/*String saida = "Entrou aqui: ID da view = " + image.getId();
 				Log.e("BRUNO COELHO", saida);
