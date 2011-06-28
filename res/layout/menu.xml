@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/norte"
+    	android:title="norte"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/sul"
+        android:title="sul"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/nordeste"
+        android:title="nordeste"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/sudeste"
+    	android:title="sudeste"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/noroeste"
+        android:title="noroeste"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/sudoeste"
+        android:title="sudoeste"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/play"
+        android:title="Play"
+        android:icon="@drawable/icon" />
+    <item 
+    	android:id="@+id/stop"
+        android:title="Stop"
+        android:icon="@drawable/icon" />
+</menu>
