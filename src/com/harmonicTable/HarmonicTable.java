@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -79,6 +80,9 @@ public class HarmonicTable extends Activity {
 
 		this.setContentView(R.layout.main);
 
+		Intent i = new Intent(this, Welcome.class);
+        startActivity(i); 
+		
 		this.idComand = 0;
 		this.functionClicked = false;
 		this.empty = true;
