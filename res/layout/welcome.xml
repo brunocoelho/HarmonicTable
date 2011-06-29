@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    <TextView android:id="@+id/welcome_text"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="300dip"  
+	    android:gravity="center"  
+	    android:text="Bem vindo à aplicação HarmonicTable!\n\nEssa aplicação foi feita para o projeto da cadeira de Computação musical." />  
+      
+    <Button  
+	    android:id="@+id/welcome_start"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="wrap_content"  
+	    android:text="Iniciar" />
+    <Button  
+	    android:id="@+id/welcome_credits"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="wrap_content"  
+	    android:text="Créditos" />
+</TableLayout>  
