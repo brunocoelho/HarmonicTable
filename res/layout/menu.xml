@@ -4,27 +4,27 @@
     <item 
     	android:id="@+id/norte"
     	android:title="norte"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/norte" />
     <item 
     	android:id="@+id/sul"
         android:title="sul"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/sul" />
     <item 
     	android:id="@+id/nordeste"
         android:title="nordeste"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/nordeste" />
     <item 
     	android:id="@+id/sudeste"
     	android:title="sudeste"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/sudeste" />
     <item 
     	android:id="@+id/noroeste"
         android:title="noroeste"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/noroeste" />
     <item 
     	android:id="@+id/sudoeste"
         android:title="sudoeste"
-        android:icon="@drawable/icon" />
+        android:icon="@drawable/sudoeste" />
     <item 
     	android:id="@+id/play"
         android:title="Play"

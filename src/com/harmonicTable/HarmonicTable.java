@@ -217,7 +217,6 @@ public class HarmonicTable extends Activity {
 		return true;
 	}
 
-	// Falta apenas colocar as orientações corretas.
 	private OnClickListener imageListener = new OnClickListener() {
 		public void onClick(View image) {
 
@@ -255,128 +254,160 @@ public class HarmonicTable extends Activity {
 						
 				}
 				ids.add(idComand);
-				Log.i("BRUNO COELHO", "Configuração das funções: " + ids.toString());
 				functionClicked = false;
 			}
 			// se nenhuma função foi escolhida, toda a nota do hexagono.
 			else{
-				Log.v("BRUNO COELHO", "Entrou no ELSE");
 				int id = image.getId();
 				switch(id){
 					case R.id.L1H1:
-						Log.v("COELHO", "click no hexa 1");
+						// F
 						break;
 					case R.id.L1H2:
-						Log.v("COELHO", "click no hexa 2");
+						// A#
 						break;
 					case R.id.L1H3:
-						Log.v("COELHO", "click no hexa 3");
+						// D#
 						break;
 					case R.id.L1H4:
-						Log.v("COELHO", "click no hexa 4");
+						// G#
 						break;
 					case R.id.L1H5:
-						Log.v("COELHO", "click no hexa 5");
+						// C#
 						break;
 					case R.id.L2H1:
+						// G#
 						break;
 					case R.id.L2H2:
+						// C#
 						break;
 					case R.id.L2H3:
+						// F#
 						break;
 					case R.id.L2H4:
+						// B
 						break;
 					case R.id.L2H5:
+						// E
 						break;
 					case R.id.L2H6:
+						// A
 						break;
 					case R.id.L3H1:
+						// E
 						break;
 					case R.id.L3H2:
+						// A
 						break;
 					case R.id.L3H3:
+						// D
 						break;
 					case R.id.L3H4:
+						// G
 						break;
 					case R.id.L3H5:
+						// C
 						break;
 					case R.id.L4H1:
+						// G
 						break;
 					case R.id.L4H2:
+						// C
 						break;
 					case R.id.L4H3:
+						// F
 						break;
 					case R.id.L4H4:
+						// A#
 						break;
 					case R.id.L4H5:
+						// D#
 						break;
 					case R.id.L4H6:
+						// G#
 						break;
 					case R.id.L5H1:
+						// D#
 						break;
 					case R.id.L5H2:
+						// G#
 						break;
 					case R.id.L5H3:
+						// C#
 						break;
 					case R.id.L5H4:
+						// F#
 						break;
 					case R.id.L5H5:
+						// B
 						break;
 					case R.id.L6H1:
+						// F#
 						break;
 					case R.id.L6H2:
+						// B
 						break;
 					case R.id.L6H3:
+						// E
 						break;
 					case R.id.L6H4:
+						// A
 						break;
 					case R.id.L6H5:
+						// D
 						break;
 					case R.id.L6H6:
+						// G
 						break;
 					case R.id.L7H1:
+						// D
 						break;
 					case R.id.L7H2:
+						// G
 						break;
 					case R.id.L7H3:
+						// C
 						break;
 					case R.id.L7H4:
+						// F
 						break;
 					case R.id.L7H5:
+						// A#
 						break;
 					case R.id.L8H1:
+						// F
 						break;
 					case R.id.L8H2:
+						// A#
 						break;
 					case R.id.L8H3:
+						// D#
 						break;
 					case R.id.L8H4:
+						// G#
 						break;
 					case R.id.L8H5:
+						// C#
 						break;
 					case R.id.L8H6:
+						// F#
 						break;
 					case R.id.L9H1:
+						// C#
 						break;
 					case R.id.L9H2:
+						// F#
 						break;
 					case R.id.L9H3:
+						// B
 						break;
 					case R.id.L9H4:
+						// E
 						break;
 					case R.id.L9H5:
+						// A
 						break;
 				}
-				/*String saida = "Entrou aqui: ID da view = " + image.getId();
-				Log.e("BRUNO COELHO", saida);
-				//image.setVisibility(4);
-				// Toolkit.getDefaultToolkit().getImage(URL or file path);
-				Drawable newImage = Drawable.createFromPath("./res/drawable-mdpi/hexagono");
-				if(newImage == null)
-					Log.v("BRUNO COELHO", "IMAGEM EH NULL");
-
-				Log.e("BRUNO COELHO", "Imagem" + newImage.toString());
-				image.setBackgroundDrawable(newImage);*/
 			}
 		}
 	};
@@ -385,7 +416,6 @@ public class HarmonicTable extends Activity {
 	private void play(){
 
 		if(!this.ids.isEmpty()){
-			Log.d("BRUNO COELHO", "Entrou no PLAY");
 		}
 	}
 
@@ -394,7 +424,6 @@ public class HarmonicTable extends Activity {
 
 		if(!this.ids.isEmpty()){
 			this.ids.clear();
-			Log.d("BRUNO COELHO", "Entrou no STOP");
 			this.image1.setImageResource(R.drawable.hexablue);
 			this.image2.setImageResource(R.drawable.hexablue);
 			this.image3.setImageResource(R.drawable.hexablue);

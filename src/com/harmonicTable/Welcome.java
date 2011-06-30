@@ -12,7 +12,7 @@ public class Welcome extends Activity {
         super.onCreate(savedInstanceState);  
         setContentView(R.layout.welcome);  
   
-        final Button start = (Button) findViewById(R.id.welcome_start);
+        Button start = (Button) findViewById(R.id.welcome_start);
   
         start.setOnClickListener(new View.OnClickListener() {  
             public void onClick(View v) {  
@@ -20,12 +20,19 @@ public class Welcome extends Activity {
             }  
         });
         
-        final Button credits = (Button) findViewById(R.id.welcome_credits);
+        Button credits = (Button) findViewById(R.id.welcome_credits);
         
         credits.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				setContentView(R.layout.creditos);
+				setContentView(R.layout.credits);
 			}
 		});
-    }  
+    }
+	/*
+	@Override
+	public void onResume(){
+		super.onResume();
+		
+		setContentView(R.layout.welcome);
+	}*/
 }

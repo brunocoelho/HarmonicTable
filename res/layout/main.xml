@@ -82,8 +82,24 @@
 	<LinearLayout android:orientation="vertical"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
 		>
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="-84px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="-49px">
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H1"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H2"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H3"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H4"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H5"
+				android:layout_width="96px" android:layout_height="110px" />
+			<ImageView android:src="@drawable/hexablue" android:id="@+id/L0H6"
+				android:layout_width="96px" android:layout_height="110px" />
+		</LinearLayout>
 
-		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="83px"
+		<LinearLayout android:orientation="horizontal" 	android:layout_marginTop="56px"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_marginLeft="-49px">
 			<ImageView android:src="@drawable/hexablue" android:id="@+id/L2H1"
